@@ -32,14 +32,14 @@ public class ManagerGame : MonoBehaviour
     {
         inst = this;
         _txtScore = GameObject.Find("txtScore").GetComponent<Text>();
-        //_txtBest = GameObject.Find("txtBest").GetComponent<Text>();
+        _txtBest = GameObject.Find("txtBest").GetComponent<Text>();
         _txtLife = GameObject.Find("txtLife").GetComponent<Text>();
 
         //_pGameOver = GameObject.Find("txtGameOver");
         _pGameOver = GameObject.Find("boardResult");
         _pGameOver.SetActive(false);
 
-        //_txtBest.text = string.Format("Bestscore : {0}", ManageApp.singleton.BestScore);
+        _txtBest.text = string.Format("Bestscore : {0}", ManageApp.singleton.BestScore);
     }
 
     /*
