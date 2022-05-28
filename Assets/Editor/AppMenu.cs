@@ -36,6 +36,7 @@ public class AppMenu : MonoBehaviour
         AssetDatabase.ImportPackage(packageFile, true);
     }
 
+    // 랭킹 리셋 
     [MenuItem("My Menu/Reset Ranking")]
     static void RestRanking()
     {
