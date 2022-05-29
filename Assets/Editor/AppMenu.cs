@@ -5,7 +5,8 @@ public class AppMenu : MonoBehaviour
 {
     static string packageFile = "FlappyBird.unitypackage";
 
-    [MenuItem("Assets/Export Backup", false, 0)]
+    // Export package 
+    [MenuItem("My Menu/Export Backup", false, 0)]
     static void action01()
     {
         string[] exportpaths = new string[]
@@ -30,7 +31,8 @@ public class AppMenu : MonoBehaviour
         print("Backup Export Complete!");
     }
 
-    [MenuItem("Assets/Import Backup", false, 1)]
+    // Import package 
+    [MenuItem("My Menu/Import Backup", false, 1)]
     static void action02()
     {
         AssetDatabase.ImportPackage(packageFile, true);

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using HorzTools;
+//using HorzTools;
+using MyEngine; 
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class HorzScroll : HScroll
