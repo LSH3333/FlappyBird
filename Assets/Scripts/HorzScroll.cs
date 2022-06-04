@@ -19,7 +19,7 @@ public class HorzScroll : HScroll
 
     void GameStart()
     {
-        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic; // RIgidbody Dynamic으로 바꾸고
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic; // Rigidbody Dynamic으로 바꾸고
         setRigidbody(2f);
     }
 }
