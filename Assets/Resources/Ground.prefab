@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -69,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1768305755
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2885aae10f96d450587439dff4a9efe0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94,8 +93,8 @@ GameObject:
   - component: {fileID: 3317445928839782351}
   - component: {fileID: 3317445928839782348}
   - component: {fileID: 3317445928839782349}
-  - component: {fileID: 3317445928839782338}
   - component: {fileID: 3317445928839782339}
+  - component: {fileID: -5295585002770524057}
   m_Layer: 0
   m_Name: Ground
   m_TagString: HorzScroll
@@ -133,7 +132,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -156,7 +154,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1371646605
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 366dda121c14c454390eeda2d333ba6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -216,18 +214,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3317445928839782338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3317445928839782336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4451f16e20dc7045a75235d110527c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3317445928839782339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,5 +224,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 973910a82789b6c4ab979de21585dee2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5295585002770524057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317445928839782336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4451f16e20dc7045a75235d110527c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
